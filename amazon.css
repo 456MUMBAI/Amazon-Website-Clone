@@ -188,3 +188,67 @@
     position:absolute;
     right: 10px;
 }
+
+/**hero-section**/
+.hero-section{
+    background-image: url(./images/hero_image.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    width: 97.33%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 17px;
+
+}
+.hero-msg p{
+    font-size: 0.875rem;
+    
+}
+.hero-msg p a{
+    color: #007185;
+    text-decoration: none;
+}
+.hero-msg p a:hover{
+    color: #c7511f;
+    text-decoration: underline;
+}
+
+/**shop-section**/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    background-color: #e3e6e6;
+}
+.box{
+    width: 23%;
+    height: 350px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    background-color: #ffffff;
+    
+}
+.box-img{
+    height: 270px;
+    margin: 10px 10px 20px 0px;
+}
+.box a{
+    padding-top: 20px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #007185;
+}
+.box a:hover{
+    color: #c7511f;
+    text-decoration: underline;
+}
