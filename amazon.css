@@ -130,5 +130,32 @@
     background-size: cover;
 }
 
+/** sign-In box**/
+.nav-signIn{
+    height: 3rem;
+    padding-top: 8px;
+}
 
+.nav-first{
+    font-size: 0.75rem;
+}
+.nav-second{
+    font-weight: 700;
+    font-size: 0.875rem;
+}
 
+/**returns and orders box**/
+.nav-returns{
+    height: 3rem;
+    padding-top: 8px;
+}
+
+/**cart logo**/
+.nav-cart{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+.nav-cart-logo{
+    font-size: 28px;
+}
