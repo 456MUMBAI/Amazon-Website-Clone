@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
     border: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+/** NAVIGATION BAR**/
 .navbar{
     height: 60px;
     background-color: #131921;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+/* amazon logo */
 .nav-logo{
     height: 50px;
     width: 100px;
@@ -21,6 +27,108 @@
     height: 50px;
 
 }
-.nav-logo:hover{
+
+/* border for the nav-tabs */
+.border:hover{
     border: 1.5px solid white
 }
+
+/* deliver to icon box */
+.address{
+    border: 1.5px solid transparent; 
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.deliver{
+    margin-left: 16.5px;
+    font-size: 0.85rem;
+}
+.india{
+    margin-left: 3px;
+    font-size: 1rem;
+}
+
+/* Search-Bar */
+.nav-search{
+    display: flex;
+    width: 900px;
+    height: 40px;
+}
+.nav-search:hover{
+   border: 3px solid #f3a94a;
+   border-radius: 6px;
+}
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    text-align:center;
+    width: 50px;
+    color: #5d5d61;
+    font-weight: 110;
+}
+.search-select:hover{
+    cursor: pointer;
+    background-color: #dadada;
+    color: #000000;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-input{
+    cursor: text;
+}
+.search-icon{
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 45px;
+    font-size: 1.2rem;
+    background-color: #f3a94a;
+    color: #3e3a34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search-icon:hover{
+    opacity: 0.9;
+    cursor:pointer;
+}
+
+/* change language */
+.nav-lang{
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lang-select{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.lang-not-selected{
+    color: #000000;
+}
+.lang-flag{
+    height: 20px;
+    width: 22px;
+    background-image: url("./images/lang-ENG.png");
+    background-size: cover;
+}
+
+
+
