@@ -17,7 +17,7 @@
 /* amazon logo */
 .nav-logo{
     height: 50px;
-    width: 100px;
+    width: 113px;
     border: 1.5px solid transparent;
 }
 .logo{
@@ -70,6 +70,7 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
+    border-right: 0.005px solid #828080ef;
     text-align:center;
     width: 50px;
     color: #5d5d61;
@@ -84,6 +85,7 @@
     width: 100%;
     font-size: 1rem;
     border: none;
+    padding-left: 10px;
 }
 .search-input{
     cursor: text;
@@ -158,4 +160,31 @@
 }
 .nav-cart-logo{
     font-size: 28px;
+}
+
+/**panel**/
+.panel{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #232f3e;
+    color: white;    
+}
+.panel-icon{
+    height: 19px;
+    width: 50px;
+    text-align: center;
+    padding: 8px 9px;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+.panel-link{
+    text-decoration: none;
+    color: white;
+    padding: 8px 9px;
+    font-size: 0.875rem;
+}
+.panel-deals{
+    position:absolute;
+    right: 10px;
 }
