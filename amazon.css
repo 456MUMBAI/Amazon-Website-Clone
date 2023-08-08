@@ -226,13 +226,16 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 20px 0px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
     background-color: #e3e6e6;
 }
 .box{
     width: 23%;
     height: 350px;
     margin-bottom: 20px;
+    margin-left: 5px;
     padding: 20px 10px;
     background-color: #ffffff;
     
@@ -252,3 +255,119 @@
     color: #c7511f;
     text-decoration: underline;
 }
+
+/**info-section**/
+hr{
+    width: 95%;
+    margin: 25px 0px 25px 25px;
+}
+.info-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+.info1{
+    margin-left: 30px;
+    font-size: 0.865rem;
+    color: #000000;
+    font-style: italic;
+}
+.info2{
+    margin-right: 35px;
+    text-decoration: none;
+    color: #007185;
+    font-size: 0.625rem;
+    font-weight: 700;
+    height: 33px;
+    width: 80px;
+}
+
+/** FOOTER **/
+/** Back to top **/
+
+.back{
+    padding : 15px 0px;
+    text-align: center;
+    height: 19px;
+    background-color: #37475A;
+}
+.back a{
+    text-decoration: none;
+    font-weight: 700;
+    color : white;
+    font-size: 13px;
+}
+.back:hover{
+    background-color: #485769;
+}
+
+/** foot - boxes **/
+.foot-big-box{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    background-color: #232f3e;
+}
+
+.foot-box p{
+    margin: 6px 0px 14px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.foot-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #DDDDDD;
+    margin-bottom: 30px;
+}
+
+.foot-box a:hover{
+    text-decoration-line: underline;
+}
+.foot-box ul{
+    list-style-type: none;
+    line-height: 25px;
+}
+
+footer hr{
+    height: 1px;
+    color: white;
+    /* background-color: #131921; */
+    border: none;
+    margin: 0px;
+    padding : 0px;
+}
+
+/**foot-link**/
+.foot-link{
+    height: 68px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.foot-logo{
+    background-image: url(./images/amazon_logo.png);
+    background-size: cover;
+    width: 98.4px;
+    height: 60px;
+    margin-right: 60px;
+    
+}
+.foot-link-box{
+    border : 1px solid white;
+    border-radius: 5px;
+    width: 150px;
+    height: 34.6px;
+    margin-right: 4px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
